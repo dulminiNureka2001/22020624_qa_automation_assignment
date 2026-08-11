@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.qa.automation.tests.AddToCartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addItemToCartTest"/>
+        </methods>
+      </class> <!-- com.qa.automation.tests.AddToCartTest -->
+      <class name="com.qa.automation.tests.CheckoutTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validCheckoutTest"/>
+        </methods>
+      </class> <!-- com.qa.automation.tests.CheckoutTest -->
+      <class name="com.qa.automation.tests.CartContentsTest">
+        <methods>
+          <include name="cartShowsCorrectItemTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.automation.tests.CartContentsTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
