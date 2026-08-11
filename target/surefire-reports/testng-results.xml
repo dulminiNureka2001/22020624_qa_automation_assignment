@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-11T13:02:36 IST" name="Surefire suite" finished-at="2026-08-11T13:03:15 IST" duration-ms="38715">
+    <groups>
+    </groups>
+    <test started-at="2026-08-11T13:02:36 IST" name="Surefire test" finished-at="2026-08-11T13:03:15 IST" duration-ms="38715">
+      <class name="com.qa.automation.tests.CartContentsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.automation.tests.CartContentsTest@60d8c9b7]" started-at="2026-08-11T13:03:02 IST" name="setUp" finished-at="2026-08-11T13:03:06 IST" duration-ms="4073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cartShowsCorrectItemTest()[pri:0, instance:com.qa.automation.tests.CartContentsTest@60d8c9b7]" started-at="2026-08-11T13:03:06 IST" name="cartShowsCorrectItemTest" finished-at="2026-08-11T13:03:07 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartShowsCorrectItemTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.automation.tests.CartContentsTest@60d8c9b7]" started-at="2026-08-11T13:03:07 IST" name="tearDown" finished-at="2026-08-11T13:03:07 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.automation.tests.CartContentsTest -->
+      <class name="com.qa.automation.tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.automation.tests.CheckoutTest@48aaecc3]" started-at="2026-08-11T13:03:07 IST" name="setUp" finished-at="2026-08-11T13:03:09 IST" duration-ms="2124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validCheckoutTest()[pri:0, instance:com.qa.automation.tests.CheckoutTest@48aaecc3]" started-at="2026-08-11T13:03:09 IST" name="validCheckoutTest" finished-at="2026-08-11T13:03:10 IST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCheckoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.automation.tests.CheckoutTest@48aaecc3]" started-at="2026-08-11T13:03:10 IST" name="tearDown" finished-at="2026-08-11T13:03:10 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.automation.tests.CheckoutTest -->
+      <class name="com.qa.automation.tests.AddToCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.automation.tests.AddToCartTest@1fe20588]" started-at="2026-08-11T13:02:36 IST" name="setUp" finished-at="2026-08-11T13:03:02 IST" duration-ms="26000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addItemToCartTest()[pri:0, instance:com.qa.automation.tests.AddToCartTest@1fe20588]" started-at="2026-08-11T13:03:02 IST" name="addItemToCartTest" finished-at="2026-08-11T13:03:02 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.automation.tests.AddToCartTest@1fe20588]" started-at="2026-08-11T13:03:02 IST" name="tearDown" finished-at="2026-08-11T13:03:02 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.automation.tests.AddToCartTest -->
+      <class name="com.qa.automation.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.automation.tests.LoginTest@7c0c77c7]" started-at="2026-08-11T13:03:10 IST" name="setUp" finished-at="2026-08-11T13:03:12 IST" duration-ms="1510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPasswordLoginTest()[pri:0, instance:com.qa.automation.tests.LoginTest@7c0c77c7]" started-at="2026-08-11T13:03:12 IST" name="invalidPasswordLoginTest" finished-at="2026-08-11T13:03:12 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.automation.tests.LoginTest@7c0c77c7]" started-at="2026-08-11T13:03:12 IST" name="tearDown" finished-at="2026-08-11T13:03:12 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.automation.tests.LoginTest@7c0c77c7]" started-at="2026-08-11T13:03:12 IST" name="setUp" finished-at="2026-08-11T13:03:14 IST" duration-ms="1466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest()[pri:0, instance:com.qa.automation.tests.LoginTest@7c0c77c7]" started-at="2026-08-11T13:03:14 IST" name="validLoginTest" finished-at="2026-08-11T13:03:14 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.automation.tests.LoginTest@7c0c77c7]" started-at="2026-08-11T13:03:14 IST" name="tearDown" finished-at="2026-08-11T13:03:15 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.automation.tests.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
